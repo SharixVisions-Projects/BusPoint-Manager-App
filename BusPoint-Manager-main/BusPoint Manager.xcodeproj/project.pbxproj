@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8028F89B2CF8510200E057A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F89A2CF8510200E057A7 /* AppDelegate.swift */; };
+		8028F89D2CF8510200E057A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F89C2CF8510200E057A7 /* SceneDelegate.swift */; };
+		8028F8A22CF8510200E057A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8028F8A02CF8510200E057A7 /* Main.storyboard */; };
+		8028F8A42CF8510400E057A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8028F8A32CF8510400E057A7 /* Assets.xcassets */; };
+		8028F8A72CF8510400E057A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8028F8A52CF8510400E057A7 /* LaunchScreen.storyboard */; };
+		8028F8B12CF852A900E057A7 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8AF2CF852A900E057A7 /* iOSDropDown.swift */; };
+		8028F8B22CF852A900E057A7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8B02CF852A900E057A7 /* Helper.swift */; };
+		8028F8B72CF852CE00E057A7 /* WelcomeThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8B42CF852CE00E057A7 /* WelcomeThreeViewController.swift */; };
+		8028F8BC2CF8548E00E057A7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8BB2CF8548E00E057A7 /* TabBarViewController.swift */; };
+		8028F8C72CF8557A00E057A7 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8BE2CF8557A00E057A7 /* OrderViewController.swift */; };
+		8028F8C82CF8557A00E057A7 /* AddRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8C02CF8557A00E057A7 /* AddRoutesViewController.swift */; };
+		8028F8C92CF8557A00E057A7 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8C22CF8557A00E057A7 /* RoutesViewController.swift */; };
+		8028F8CA2CF8557A00E057A7 /* RoutesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8C32CF8557A00E057A7 /* RoutesTableViewCell.swift */; };
+		8028F8CB2CF8557A00E057A7 /* productsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8C52CF8557A00E057A7 /* productsCollectionViewCell.swift */; };
+		8028F8CC2CF8557A00E057A7 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8C62CF8557A00E057A7 /* ProductViewController.swift */; };
+		8028F8D22CF85A5700E057A7 /* CreateBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8CE2CF85A5700E057A7 /* CreateBookingViewController.swift */; };
+		8028F8D32CF85A5700E057A7 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8D02CF85A5700E057A7 /* OverviewViewController.swift */; };
+		8028F8D82CF85A6E00E057A7 /* historyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8D62CF85A6E00E057A7 /* historyTableViewCell.swift */; };
+		8028F8D92CF85A6E00E057A7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028F8D72CF85A6E00E057A7 /* HistoryViewController.swift */; };
+		8033F3B62CF879D100F4CF23 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3B42CF879D000F4CF23 /* SideMenuTableViewCell.swift */; };
+		8033F3B72CF879D100F4CF23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3B52CF879D000F4CF23 /* SettingsViewController.swift */; };
+		8033F3BF2CF87A3C00F4CF23 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3B92CF87A3C00F4CF23 /* FeedbackViewController.swift */; };
+		8033F3C02CF87A3C00F4CF23 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3BB2CF87A3C00F4CF23 /* AboutusViewController.swift */; };
+		8033F3C12CF87A3C00F4CF23 /* CurencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3BD2CF87A3C00F4CF23 /* CurencyTableViewCell.swift */; };
+		8033F3C22CF87A3C00F4CF23 /* CurencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3BE2CF87A3C00F4CF23 /* CurencyViewController.swift */; };
+		8033F3C62CF87E7100F4CF23 /* ViewSalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3C42CF87E7100F4CF23 /* ViewSalesViewController.swift */; };
+		8033F3C72CF87E7100F4CF23 /* ViewSalesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F3C52CF87E7100F4CF23 /* ViewSalesTableViewCell.swift */; };
+		8085571E2CF9C4CA00B3EB01 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8085571D2CF9C4CA00B3EB01 /* OrderDetailViewController.swift */; };
+		808557202CF9DB1600B3EB01 /* OverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8085571F2CF9DB1500B3EB01 /* OverviewTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8028F8972CF8510200E057A7 /* BusPoint Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusPoint Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8028F89A2CF8510200E057A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8028F89C2CF8510200E057A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8028F8A12CF8510200E057A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8028F8A32CF8510400E057A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8028F8A62CF8510400E057A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8028F8A82CF8510400E057A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8028F8AF2CF852A900E057A7 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		8028F8B02CF852A900E057A7 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8028F8B42CF852CE00E057A7 /* WelcomeThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeThreeViewController.swift; sourceTree = "<group>"; };
+		8028F8BB2CF8548E00E057A7 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8028F8BE2CF8557A00E057A7 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		8028F8C02CF8557A00E057A7 /* AddRoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRoutesViewController.swift; sourceTree = "<group>"; };
+		8028F8C22CF8557A00E057A7 /* RoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
+		8028F8C32CF8557A00E057A7 /* RoutesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesTableViewCell.swift; sourceTree = "<group>"; };
+		8028F8C52CF8557A00E057A7 /* productsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8028F8C62CF8557A00E057A7 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		8028F8CE2CF85A5700E057A7 /* CreateBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBookingViewController.swift; sourceTree = "<group>"; };
+		8028F8D02CF85A5700E057A7 /* OverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		8028F8D62CF85A6E00E057A7 /* historyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = historyTableViewCell.swift; sourceTree = "<group>"; };
+		8028F8D72CF85A6E00E057A7 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		8033F3B42CF879D000F4CF23 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		8033F3B52CF879D000F4CF23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8033F3B92CF87A3C00F4CF23 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		8033F3BB2CF87A3C00F4CF23 /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		8033F3BD2CF87A3C00F4CF23 /* CurencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurencyTableViewCell.swift; sourceTree = "<group>"; };
+		8033F3BE2CF87A3C00F4CF23 /* CurencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurencyViewController.swift; sourceTree = "<group>"; };
+		8033F3C42CF87E7100F4CF23 /* ViewSalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSalesViewController.swift; sourceTree = "<group>"; };
+		8033F3C52CF87E7100F4CF23 /* ViewSalesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSalesTableViewCell.swift; sourceTree = "<group>"; };
+		8085571D2CF9C4CA00B3EB01 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		8085571F2CF9DB1500B3EB01 /* OverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8028F8942CF8510200E057A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8028F88E2CF8510200E057A7 = {
+			isa = PBXGroup;
+			children = (
+				8028F8992CF8510200E057A7 /* BusPoint Manager */,
+				8028F8982CF8510200E057A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8028F8982CF8510200E057A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8972CF8510200E057A7 /* BusPoint Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8028F8992CF8510200E057A7 /* BusPoint Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8AE2CF852A900E057A7 /* Helpers */,
+				8085571C2CF9C4CA00B3EB01 /* Order Details */,
+				8033F3C32CF87E7100F4CF23 /* View All Sales */,
+				8033F3BA2CF87A3C00F4CF23 /* AboutUs */,
+				8033F3BC2CF87A3C00F4CF23 /* CurencyVC */,
+				8033F3B82CF87A3C00F4CF23 /* Feedback */,
+				8033F3B32CF879D000F4CF23 /* Settings */,
+				8028F8CD2CF85A5700E057A7 /* Create Booking */,
+				8028F8BF2CF8557A00E057A7 /* Add Routes */,
+				8028F8BD2CF8557A00E057A7 /* Add Bus */,
+				8028F8D52CF85A6E00E057A7 /* History */,
+				8028F8CF2CF85A5700E057A7 /* OverView */,
+				8028F8C12CF8557A00E057A7 /* Routes */,
+				8028F8C42CF8557A00E057A7 /* Buses */,
+				8028F8BA2CF8547700E057A7 /* TabBar */,
+				8028F8B32CF852CE00E057A7 /* Welcome */,
+				8028F89A2CF8510200E057A7 /* AppDelegate.swift */,
+				8028F89C2CF8510200E057A7 /* SceneDelegate.swift */,
+				8028F8A02CF8510200E057A7 /* Main.storyboard */,
+				8028F8A32CF8510400E057A7 /* Assets.xcassets */,
+				8028F8A52CF8510400E057A7 /* LaunchScreen.storyboard */,
+				8028F8A82CF8510400E057A7 /* Info.plist */,
+			);
+			path = "BusPoint Manager";
+			sourceTree = "<group>";
+		};
+		8028F8AE2CF852A900E057A7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8AF2CF852A900E057A7 /* iOSDropDown.swift */,
+				8028F8B02CF852A900E057A7 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8028F8B32CF852CE00E057A7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8B42CF852CE00E057A7 /* WelcomeThreeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		8028F8BA2CF8547700E057A7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8BB2CF8548E00E057A7 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8028F8BD2CF8557A00E057A7 /* Add Bus */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8BE2CF8557A00E057A7 /* OrderViewController.swift */,
+			);
+			path = "Add Bus";
+			sourceTree = "<group>";
+		};
+		8028F8BF2CF8557A00E057A7 /* Add Routes */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8C02CF8557A00E057A7 /* AddRoutesViewController.swift */,
+			);
+			path = "Add Routes";
+			sourceTree = "<group>";
+		};
+		8028F8C12CF8557A00E057A7 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8C22CF8557A00E057A7 /* RoutesViewController.swift */,
+				8028F8C32CF8557A00E057A7 /* RoutesTableViewCell.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		8028F8C42CF8557A00E057A7 /* Buses */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8C52CF8557A00E057A7 /* productsCollectionViewCell.swift */,
+				8028F8C62CF8557A00E057A7 /* ProductViewController.swift */,
+			);
+			path = Buses;
+			sourceTree = "<group>";
+		};
+		8028F8CD2CF85A5700E057A7 /* Create Booking */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8CE2CF85A5700E057A7 /* CreateBookingViewController.swift */,
+			);
+			path = "Create Booking";
+			sourceTree = "<group>";
+		};
+		8028F8CF2CF85A5700E057A7 /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				8085571F2CF9DB1500B3EB01 /* OverviewTableViewCell.swift */,
+				8028F8D02CF85A5700E057A7 /* OverviewViewController.swift */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		8028F8D52CF85A6E00E057A7 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8028F8D62CF85A6E00E057A7 /* historyTableViewCell.swift */,
+				8028F8D72CF85A6E00E057A7 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8033F3B32CF879D000F4CF23 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8033F3B42CF879D000F4CF23 /* SideMenuTableViewCell.swift */,
+				8033F3B52CF879D000F4CF23 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8033F3B82CF87A3C00F4CF23 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				8033F3B92CF87A3C00F4CF23 /* FeedbackViewController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		8033F3BA2CF87A3C00F4CF23 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				8033F3BB2CF87A3C00F4CF23 /* AboutusViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		8033F3BC2CF87A3C00F4CF23 /* CurencyVC */ = {
+			isa = PBXGroup;
+			children = (
+				8033F3BD2CF87A3C00F4CF23 /* CurencyTableViewCell.swift */,
+				8033F3BE2CF87A3C00F4CF23 /* CurencyViewController.swift */,
+			);
+			path = CurencyVC;
+			sourceTree = "<group>";
+		};
+		8033F3C32CF87E7100F4CF23 /* View All Sales */ = {
+			isa = PBXGroup;
+			children = (
+				8033F3C42CF87E7100F4CF23 /* ViewSalesViewController.swift */,
+				8033F3C52CF87E7100F4CF23 /* ViewSalesTableViewCell.swift */,
+			);
+			path = "View All Sales";
+			sourceTree = "<group>";
+		};
+		8085571C2CF9C4CA00B3EB01 /* Order Details */ = {
+			isa = PBXGroup;
+			children = (
+				8085571D2CF9C4CA00B3EB01 /* OrderDetailViewController.swift */,
+			);
+			path = "Order Details";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8028F8962CF8510200E057A7 /* BusPoint Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8028F8AB2CF8510400E057A7 /* Build configuration list for PBXNativeTarget "BusPoint Manager" */;
+			buildPhases = (
+				8028F8932CF8510200E057A7 /* Sources */,
+				8028F8942CF8510200E057A7 /* Frameworks */,
+				8028F8952CF8510200E057A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusPoint Manager";
+			productName = "BusPoint Manager";
+			productReference = 8028F8972CF8510200E057A7 /* BusPoint Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8028F88F2CF8510200E057A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8028F8962CF8510200E057A7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8028F8922CF8510200E057A7 /* Build configuration list for PBXProject "BusPoint Manager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8028F88E2CF8510200E057A7;
+			productRefGroup = 8028F8982CF8510200E057A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8028F8962CF8510200E057A7 /* BusPoint Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8028F8952CF8510200E057A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8028F8A72CF8510400E057A7 /* LaunchScreen.storyboard in Resources */,
+				8028F8A42CF8510400E057A7 /* Assets.xcassets in Resources */,
+				8028F8A22CF8510200E057A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8028F8932CF8510200E057A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8028F8B12CF852A900E057A7 /* iOSDropDown.swift in Sources */,
+				808557202CF9DB1600B3EB01 /* OverviewTableViewCell.swift in Sources */,
+				8028F8C92CF8557A00E057A7 /* RoutesViewController.swift in Sources */,
+				8033F3C62CF87E7100F4CF23 /* ViewSalesViewController.swift in Sources */,
+				8028F89B2CF8510200E057A7 /* AppDelegate.swift in Sources */,
+				8033F3BF2CF87A3C00F4CF23 /* FeedbackViewController.swift in Sources */,
+				8028F8C82CF8557A00E057A7 /* AddRoutesViewController.swift in Sources */,
+				8028F89D2CF8510200E057A7 /* SceneDelegate.swift in Sources */,
+				8033F3C02CF87A3C00F4CF23 /* AboutusViewController.swift in Sources */,
+				8033F3B72CF879D100F4CF23 /* SettingsViewController.swift in Sources */,
+				8028F8C72CF8557A00E057A7 /* OrderViewController.swift in Sources */,
+				8028F8CC2CF8557A00E057A7 /* ProductViewController.swift in Sources */,
+				8028F8D22CF85A5700E057A7 /* CreateBookingViewController.swift in Sources */,
+				8033F3C72CF87E7100F4CF23 /* ViewSalesTableViewCell.swift in Sources */,
+				8033F3C22CF87A3C00F4CF23 /* CurencyViewController.swift in Sources */,
+				8028F8B72CF852CE00E057A7 /* WelcomeThreeViewController.swift in Sources */,
+				8028F8D82CF85A6E00E057A7 /* historyTableViewCell.swift in Sources */,
+				8028F8D32CF85A5700E057A7 /* OverviewViewController.swift in Sources */,
+				8028F8BC2CF8548E00E057A7 /* TabBarViewController.swift in Sources */,
+				8028F8B22CF852A900E057A7 /* Helper.swift in Sources */,
+				8028F8CB2CF8557A00E057A7 /* productsCollectionViewCell.swift in Sources */,
+				8033F3B62CF879D100F4CF23 /* SideMenuTableViewCell.swift in Sources */,
+				8085571E2CF9C4CA00B3EB01 /* OrderDetailViewController.swift in Sources */,
+				8028F8D92CF85A6E00E057A7 /* HistoryViewController.swift in Sources */,
+				8028F8CA2CF8557A00E057A7 /* RoutesTableViewCell.swift in Sources */,
+				8033F3C12CF87A3C00F4CF23 /* CurencyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8028F8A02CF8510200E057A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8028F8A12CF8510200E057A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8028F8A52CF8510400E057A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8028F8A62CF8510400E057A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8028F8A92CF8510400E057A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8028F8AA2CF8510400E057A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8028F8AC2CF8510400E057A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Y9664RP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BusPoint Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buspointmanager.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8028F8AD2CF8510400E057A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Y9664RP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BusPoint Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buspointmanager.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8028F8922CF8510200E057A7 /* Build configuration list for PBXProject "BusPoint Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8028F8A92CF8510400E057A7 /* Debug */,
+				8028F8AA2CF8510400E057A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8028F8AB2CF8510400E057A7 /* Build configuration list for PBXNativeTarget "BusPoint Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8028F8AC2CF8510400E057A7 /* Debug */,
+				8028F8AD2CF8510400E057A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8028F88F2CF8510200E057A7 /* Project object */;
+}
